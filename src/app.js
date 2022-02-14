@@ -4,7 +4,7 @@ const path=require("path")
 const hbs=require("hbs")
 //process.env.PORT gives default port if its not in use
 let port=process.env.PORT || 9090 ;
-
+//todo remove after redeploy
 //dynamic (hbs)
 template_path=path.join(__dirname,"../templates/views")
 
